@@ -1,0 +1,501 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        .development_title {
+            text-align: center;
+            font-size: 15px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            letter-spacing: 3px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .skills-bar-container {
+            position: relative;
+            margin: 0 auto;
+            width: 40%;
+            min-width: 350px;
+            top: 40%;
+            transform: translate(-50%, -50%) s;
+            list-style: none;
+            margin-bottom: 25px;
+        }
+
+            .skills-bar-container li {
+                position: relative;
+                width: 100%;
+                padding: 2px 2px;
+            }
+
+        .progressbar-title {
+            color: #FF6347;
+        }
+
+            .progressbar-title h3 {
+                display: inline-block;
+                position: relative;
+                top: 17px;
+                color: #888;
+            }
+
+            .progressbar-title .percent {
+                position: absolute;
+                right: 2px;
+                top: 40px;
+            }
+
+        .bar-container {
+            background: #555;
+            position: relative;
+            width: 100%;
+            height: 10px;
+            display: block;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            margin-bottom: -15px;
+        }
+
+            .bar-container .progressbar {
+                position: absolute;
+                width: 0%;
+                height: 100%;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                border-radius: 5px;
+                animation-duration: 2s;
+                animation-timing-function: ease-out;
+                animation-fill-mode: both;
+            }
+
+        .progresstomatoes {
+            background: #FF6347;
+        }
+
+        #progress-html {
+            animation-name: progress-html;
+            animation-delay: 0.7s;
+        }
+
+        #progress-css {
+            animation-name: progress-css;
+            animation-delay: 1.4s;
+        }
+
+        #progress-javascript {
+            animation-name: progress-javascript;
+            animation-delay: 2.1s;
+        }
+
+        #progress-python {
+            animation-name: progress-python;
+            animation-delay: 2.8s;
+        }
+
+        #progress-aspnet {
+            animation-name: progress-aspnet;
+            animation-delay: 3.5s;
+        }
+
+        #progress-bootstrap {
+            animation-name: progress-bootstrap;
+            animation-delay: 4.2s;
+        }
+
+        #progress-java {
+            animation-name: progress-java;
+            animation-delay: 4.9s;
+        }
+
+        @-webkit-keyframes progress-html {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 90%;
+            }
+        }
+
+        @-moz-keyframes progress-html {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 90%;
+            }
+        }
+
+        @-ms-keyframes progress-html {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 90%;
+            }
+        }
+
+        @keyframes progress-html {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 90%;
+            }
+        }
+
+        @-webkit-keyframes progress-css {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 90%;
+            }
+        }
+
+        @-moz-keyframes progress-css {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 90%;
+            }
+        }
+
+        @-ms-keyframes progress-css {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 90%;
+            }
+        }
+
+        @keyframes progress-css {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 90%;
+            }
+        }
+
+        @-webkit-keyframes progress-javascript {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 70%;
+            }
+        }
+
+        @-moz-keyframes progress-javascript {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 70%;
+            }
+        }
+
+        @-ms-keyframes progress-javascript {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 70%;
+            }
+        }
+
+        @keyframes progress-javascript {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 70%;
+            }
+        }
+
+        @-webkit-keyframes progress-python {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 55%;
+            }
+        }
+
+        @-moz-keyframes progress-python {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 55%;
+            }
+        }
+
+        @-ms-keyframes progress-python {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 55%;
+            }
+        }
+
+        @keyframes progress-python {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 55%;
+            }
+        }
+
+        @-webkit-keyframes progress-bootstrap {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 75%;
+            }
+        }
+
+        @-moz-keyframes progress-bootstrap {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 75%;
+            }
+        }
+
+        @-ms-keyframes progress-bootstrap {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 75%;
+            }
+        }
+
+        @keyframes progress-bootstrap {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 75%;
+            }
+        }
+
+        @-webkit-keyframes progress-aspnet {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 65%;
+            }
+        }
+
+        @-moz-keyframes progress-aspnet {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 65%;
+            }
+        }
+
+        @-ms-keyframes progress-aspnet {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 65%;
+            }
+        }
+
+        @keyframes progress-aspnet {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 65%;
+            }
+        }
+
+        @-webkit-keyframes progress-java {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 35%;
+            }
+        }
+
+        @-moz-keyframes progress-java {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 35%;
+            }
+        }
+
+        @-ms-keyframes progress-java {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 35%;
+            }
+        }
+
+        @keyframes progress-java {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 35%;
+            }
+        }
+
+    </style>
+   
+</head>
+<body>
+
+    <div class="development_title"></div>
+    <h2>My skill</h2>
+    <ul class="skills-bar-container">
+        <li>
+            <div class="progressbar-title">
+                <h3>HTML5</h3>
+                <span class="percent" id="html-pourcent"></span>
+            </div>
+            <div class="bar-container">
+                <span class="progressbar progresstomatoes" id="progress-html"></span>
+            </div>
+        </li>
+        <li>
+            <div class="progressbar-title">
+                <h3>CSS / SASS</h3>
+                <span class="percent" id="css-pourcent"></span>
+            </div>
+            <div class="bar-container">
+                <span class="progressbar progresstomatoes" id="progress-css"></span>
+            </div>
+        </li>
+
+        <li>
+            <div class="progressbar-title">
+
+                <h3>JavaScript / jQuery</h3>
+                <span class="percent" id="javascript-pourcent"></span>
+            </div>
+            <div class="bar-container">
+                <span class="progressbar progresstomatoes" id="progress-javascript"></span>
+            </div>
+        </li>
+
+        <li>
+            <div class="progressbar-title">
+                <h3>Python</h3>
+                <span class="percent" id="python-pourcent"></span>
+            </div>
+            <div class="bar-container">
+                <span class="progressbar progresstomatoes" id="progress-python"></span>
+            </div>
+        </li>
+
+        <li>
+            <div class="progressbar-title col">
+                <h3>ASP.NET C#</h3>
+                <span class="percent" id="aspnet-pourcent"></span>
+            </div>
+            <div class="bar-container">
+                <span class="progressbar progresstomatoes" id="progress-aspnet"></span>
+            </div>
+        </li>
+        <li>
+            <div class="progressbar-title">
+                <h3>Bootstrap</h3>
+                <span class="percent" id="bootstrap-pourcent"></span>
+            </div>
+            <div class="bar-container">
+                <span class="progressbar progresstomatoes" id="progress-bootstrap"></span>
+            </div>
+        </li>
+        <li>
+            <div class="progressbar-title">
+                <h3>Java</h3>
+                <span class="percent" id="java-pourcent"></span>
+            </div>
+            <div class="bar-container">
+                <span class="progressbar progresstomatoes" id="progress-java"></span>
+            </div>
+        </li>
+
+    </ul>
+
+    <script src="wwwroot/lib/jquery/jquery.js"></script>
+    <script type="text/javascript">
+        var lang = {
+            html: "90%",
+            css: "90%",
+            javascript: "70%",
+            python: "55%",
+            aspnet: "65%",
+            bootstrap: "75%",
+            java: "35%"
+        };
+        var multiply = 4;
+
+        $.each(lang, function (language, pourcent) {
+            var delay = 700;
+
+            setTimeout(function () {
+                $("#" + language + "-pourcent").html(pourcent);
+            }, delay * multiply);
+
+            multiply++;
+        });
+
+    </script>
+
+</body>
+</html>

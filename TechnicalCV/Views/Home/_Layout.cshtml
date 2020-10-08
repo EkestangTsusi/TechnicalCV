@@ -1,0 +1,559 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <link href="~/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/jquery-validate/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.js"></script>
+    <link href="~/lib/font-awesome/css/all.css" rel="stylesheet" />
+    <script src="~/scripts/home.js"></script>
+    <link href="~/css/myStyle.css" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="~/Images/favicon-16x16.png">
+
+</head>
+<body>
+
+    <header class="container-fluid smoothscroll" id="home">
+        <nav class="navbar fixed-top bg-dark navbar-dark navbar-expand-sm" id="navbarscroll" style="box-shadow:3px 3px 3px #2ecc71;height:90px;">
+            <div class="container">
+
+                <a href="#home" class="navbar-brand" style="font-size:1.5rem">
+
+                    <span><span id="me" style="color:#2ecc71">E</span>KETSANG TSUSI</span>
+                </a>
+
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapseNavbar" aria-expanded="false">
+                    <span class="fa fa-bars"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="collapseNavbar">
+                    <ul class="nav navbar-nav m-5" id="tabPanel">
+
+                        <li class="nav-item active">
+                            <a href="#home" class=" nav-link">HOME</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">ABOUT</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#cv" class="nav-link">CV</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav-link">PORTFOLIO</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">CONTACT</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+
+        <div class="row banner">
+            <div class="banner-text">
+                <h2>
+                    <span>HELLO, I'M</span>
+
+                    <br />
+
+                    EKETSANG TSUSI
+                </h2>
+                <br />
+                <h3 class="title">FULL STACK DEVELOPER</h3>
+
+                <br />
+
+                <ul class="col-md-12 justify-content-center mt-5">
+                    <li><a href="https://gmail.com" class="fas fa-envelope-open"></a></li>
+                    <li><a href="https://linkedin.com" class="fab fa-linkedin"></a></li>
+                    <li><a href="https://twitter.com" class="fab fa-twitter"></a></li>
+                    <li><a href="https://instagram.com" class="fab fa-instagram"></a></li>
+                    
+                </ul>
+
+            </div>
+            
+            
+
+        </div>
+
+        <div class="scrolldown ">
+            <a class="" href="#about">
+                <i class="fa fa-arrow-circle-down">
+                </i>
+            </a>
+
+        </div>
+    </header>
+
+    <div data-spy="scroll" data-target="tabPanel" data-offset="0">
+        <div class="smoothscroll" id="about">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-3 col-sm-4">
+                        <img class="rounded-circle" src="~/Images/user.jpg" style="height:120px;width:120px;" />
+                    </div>
+
+                    <div class="col-md-8 col-sm-6 mt-2 pt-2">
+                        <h2 class="">About Me</h2>
+                        <p>
+                            I am very passionate about what I do, creating developing mobile and web applications. What makes it fun is that the 
+                            is only something new to learn new chllenges to conqure.
+                        </p>
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+        <div class="container justify-content-center smoothscroll" id="cv">
+            <div class="row education justify-content-center">
+                <div class="col-md-3 header-col mt-3 justify-content-center">
+                    <h1>
+                        <span>Education</span>
+                    </h1>
+                </div>
+                <div class="col-md-9 main-col mt-3 ">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>University</h3>
+                            <p class="info">
+                                Bsc Information Technology
+                                <span>•</span>
+                                <em class="date">Dec 2020</em>
+                            </p>
+                            <p>
+                                In Information Technology I participated in many group projects which expanded my knowledg and experince in Robotics,
+                                Databases I, Databases II, Systems Analysis I, Systems Analysis II, C#, Java, Python, Artificial Intelligence, Computer Networks
+                                and Operating Systems. I have also created applications using the following tools, MySql Workbench 8.0 CE, Microsoft Sql Server
+                                Management Studio 17, Visual Studio code, Visual Studio 2017, Edraw Maz 9.3 creating Use Case Dagrams and Entity Relationships Diagrams.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>High School</h3>
+                            <p class="info">
+                                Brackenfell High School
+                                <span>•</span>
+                                <em class="date">Dec 2015</em>
+                            </p>
+                            <p>
+                                Completed High school.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+            <div class="row projects">
+                <div class="col-md-3">
+                    <h1>
+                        <span>Projects</span>
+                    </h1>
+                </div>
+                <div class="col-md-9">
+
+                    <div class="row mt-3">
+                        <div class="col-md-12">
+                            <h3>Online Technical CV</h3>
+                            <p class="info">
+                                CV
+                                <span>•</span>
+                                <em class="date">Oct 2020</em>
+                            </p>
+                            <p>
+                                A personalized CV (Curriculumn Vitae), showcasing my web develepoemnt skills for future employers, should they want to view
+                                some of the projects I have worked on.
+
+                                Techologies Used HTML5 using headings, CSS3 using backgroung images, JQUERY 3 using animations, BOOTSTRAP 4 using layouts and grid panels, CSHTML, ASP.NET CORE
+                                using visual studio.<br />
+                                Implemented using Visual Studio 2017
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="col-md-12">
+                            <h3>Puzzle Game</h3>
+                            <p class="info">
+                                Puzzle Game
+                                <span>•</span>
+                                <em class="date">March 2020 - June 2020</em>
+                            </p>
+                            <p>
+                                The Puzzle Sort Game is a very simple, but challenging 3 x 3 game designed to challenge a person’s problem solving skills
+                                including logic and pattern. The aim of the game is for the user to sort the tiles in ascending order while trying to do
+                                this with the least number of moves as possible to score maximum points. Once the tiles have been arranged in the correct
+                                ascending order the number of moves to complete the tiles is displayed and option to start a new game is presented.
+
+                                Technologies Used Python and Visual Studio Code.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="col-md-12">
+                            <h3>Central Application</h3>
+                            <p class="info">
+                                CA
+                                <span>•</span>
+                                <em class="date">Feb 2020 - Present</em>
+                            </p>
+                            <p>
+                                Central Application is a system intended to centralizes all South African Higher learning institutions
+                                online applications.
+                                The system is a web application which will be integrated with Higher learning institutions web application systems that exist.
+                                The app will capture a student’s application once and compare the requirement to those needed by the institutions and for the specific
+                                course chosen. The system captures the users details once, so they can reuse them for all the other intitutions.
+                                Technologies Used ASP.NET Core, Mvc, C# , Jquery, Html, Cshtml, Web Api, Rest Api, Entity Framework Core, MySql Workbench 8.0 CE, Bootstrap,
+                                Postman Tools and Ajax.
+
+                            </p>
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+            <div class="row skills mt-3 mb-5">
+                <div class="col-md-3 mt-2">
+                    <h1>
+                        <span>Skills</span>
+                    </h1>
+                </div>
+
+                
+
+                <div class="col-md-9 mt-2">
+                    <p>
+                        As a full stack developer, skills are differentiated between Back end, Front end and Database.
+                        <br />
+                        Front End, Css3, Html5, Jquey and Bootstrap 4.<br />
+                        Back End, C#, Java, Python, Asp.Net and Asp.Net Core.<br />
+                        Database Sql Server and MySql.
+                    </p>
+                    <ul class="skills-bar-container">
+                        <li class="p-2">
+                            <div class="progressbar-title">
+                                <h3>HTML5</h3>
+                                <span class="percent" id="html-pourcent"></span>
+                            </div>
+                            <div class="bar-container">
+                                <span class="progressbar progresstomatoes" id="progress-html"></span>
+                            </div>
+                        </li>
+                        <li class="p-2">
+                            <div class="progressbar-title">
+                                <h3>CSS / SASS</h3>
+                                <span class="percent" id="css-pourcent"></span>
+                            </div>
+                            <div class="bar-container">
+                                <span class="progressbar progresstomatoes" id="progress-css"></span>
+                            </div>
+                        </li>
+
+                        <li class="p-2">
+                            <div class="progressbar-title">
+
+                                <h3>JavaScript / jQuery</h3>
+                                <span class="percent" id="javascript-pourcent"></span>
+                            </div>
+                            <div class="bar-container">
+                                <span class="progressbar progresstomatoes" id="progress-javascript"></span>
+                            </div>
+                        </li>
+
+                        <li class="p-2">
+                            <div class="progressbar-title">
+                                <h3>Python</h3>
+                                <span class="percent" id="python-pourcent"></span>
+                            </div>
+                            <div class="bar-container">
+                                <span class="progressbar progresstomatoes" id="progress-python"></span>
+                            </div>
+                        </li>
+
+                        <li class="p-2">
+                            <div class="progressbar-title">
+                                <h3>ASP.NET C#</h3>
+                                <span class="percent" id="aspnet-pourcent"></span>
+                            </div>
+                            <div class="bar-container">
+                                <span class="progressbar progresstomatoes" id="progress-aspnet"></span>
+                            </div>
+                        </li>
+                        <li class="p-2">
+                            <div class="progressbar-title">
+                                <h3>Bootstrap</h3>
+                                <span class="percent" id="bootstrap-pourcent"></span>
+                            </div>
+                            <div class="bar-container">
+                                <span class="progressbar progresstomatoes" id="progress-bootstrap"></span>
+                            </div>
+                        </li>
+                        <li class="p-2">
+                            <div class="progressbar-title">
+                                <h3>Java</h3>
+                                <span class="percent" id="java-pourcent"></span>
+                            </div>
+                            <div class="bar-container">
+                                <span class="progressbar progresstomatoes" id="progress-java"></span>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+           
+
+        </div>
+
+
+
+        <div class="container-fluid" id="portfolio">
+            <div class="container">
+                <h1 class="offset-md-2">Portfolio</h1>
+                <h5 class="ml-3 mb-3">Technologies Used</h5>
+
+
+                <div class="row card-deck col-md-12">
+
+                    <div class="card col-md-3 col-sm-12 col-lg-3" data-toggle="modal" data-target="#db" style="background: #fff">
+                        <img width="230" src="~/Images/cv.PNG" class="rounded"/>
+                        <div class="text" style="color:#808080;position:relative">
+                            Online Technical CV
+                        </div>
+
+                    </div>
+
+                    <div class="card col-md-3 col-sm-12 col-lg-3" data-toggle="modal" data-target="#frontEnd" style="background: #fff">
+                        <img width="230" src="~/Images/controls.PNG" class="rounded"/>
+                        <div class="text" style="color:#808080;position:relative">
+                            Puzzle Game
+                        </div>
+
+                    </div>
+
+                    <div class="card col-md-3 col-sm-12 col-lg-3" data-toggle="modal" data-target="#backEnd" style="background: #fff">
+                        <img width="230" src="~/Images/aps.PNG" class="rounded"/>
+                        <div class="text" style="color:#808080;position:relative">
+                            Central Application
+                        </div>
+
+                    </div>
+
+                   
+
+
+                </div>
+
+            </div>
+
+            @*Html Modal*@
+            <div class="modal fade" id="frontEnd" data-keyboard="false" tabindex="-1" aria-labelledby="frontEnd">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">HTML 5</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body" id="tech">
+                            <div class="container">
+
+                                <img src="~/Images/eghtml.PNG" />
+
+                            </div>
+                            <p class="mt-2 ml-2">
+                                Html 5 used to create elements such as the head and body sections. scripts also loaded on html page.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            @*Bootstraps Modal*@
+            <div class="modal fade" id="backEnd" data-keyboard="false" tabindex="-1" aria-labelledby="backEnd">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Bootstrap 4</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+
+                                <img src="~/Images/egbootstrap.PNG" />
+
+                            </div>
+                            <p class="mt-2 ml-2">
+                                - Bootstrap 4 used to create easy navigation bars and modals.
+                            </p>
+                            <p class="mt-2 ml-2">
+                                - Css 3 used to create custom stylesheets for better / visualy appealing elements.
+                            </p>
+                            <p class="mt-2 ml-2">
+                                - Jquery 3 used to create easy animations and connect to api's.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            @*Css Modal*@
+            <div class="modal fade" id="db" data-keyboard="false" tabindex="-1" aria-labelledby="db" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="db">Css 3</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+
+                                <img src="~/Images/egcss.PNG" />
+
+                            </div>
+                            <p class="mt-2 ml-2">
+                                - Bootstrap 4 used to create easy navigation bars and modals.
+                            </p>
+                            <p class="mt-2 ml-2">
+                                - Css 3 used to create custom stylesheets for better / visualy appealing elements.
+                            </p>
+                            <p class="mt-2 ml-2">
+                                - Jquery 3 used to create easy animations and connect to api's.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                    </div>
+                </div>
+            </div>
+
+            @*Jquery Modal*@
+            <div class="modal fade" id="jq" data-keyboard="false" tabindex="-1" aria-labelledby="jq">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">JQUERY 3</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+
+                                <div class="row">
+                                    <img src="~/Images/jquery.png" />
+                                    <span class="">- used jquery</span>
+                                </div>
+
+                            </div>
+                            <p class="mt-2 ml-2">
+                               - Jquery 3 used to create easy animations and connect to api's.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid " id="contact">
+            <div class="container">
+                <div class="row ">
+                    <i class="fa fa-location-arrow"></i>
+                    <div class="">Pretoria, South Africa</div>
+
+                </div>
+                <div class="row ">
+                    <span class="fa fa-phone"></span>
+                    <div class="">074 04 687 740</div>
+
+                </div>
+                <div class="row ">
+                    <span class="fa fa-envelope"></span>
+                    <a href="#" class="">eketsang.eki@gmai.com</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+
+
+
+
+
+        <div>
+            @RenderBody()
+        </div>
+
+</body>
+</html>
